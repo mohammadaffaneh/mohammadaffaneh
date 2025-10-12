@@ -18,7 +18,7 @@
 - **Unstructured Data Pipelines**: Batch ETL workflows processing large-scale document corpora through AI extraction, transformation, and loading into structured databases
 - **Structured Output Agents**: LLM-based automation workflows with schema-validated outputs using Pydantic models and function calling
 - **Agentic RAG**: Multi-agent orchestration with LangGraph, hybrid search (vector + keyword), and real-time streaming responses
-- **Semantic Search Infrastructure**: Fine-tuned embedding models deployed at scale, reducing case retrieval time by 90% for investigators
+- **Semantic Search Infrastructure**: Fine-tuned embedding models deployed at scale
 - **MLOps & Deployment**: CI/CD pipelines, containerized services, Kubernetes orchestration, and cloud-native architectures
 - **Technical Leadership**: Leading cross-functional teams of engineers and designers delivering enterprise AI products
 
