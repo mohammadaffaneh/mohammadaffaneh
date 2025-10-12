@@ -70,8 +70,4 @@
   </a>
 </p>
 
----
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=moaffaneh&label=Profile%20views&color=4ECDC4&style=for-the-badge" />
-</p>
