@@ -11,7 +11,7 @@
 
 ##  About Me
 
-> **Data Scientist** specializing in enterprise-grade Data & AI products incl. backend systems and user-faceing applications 
+> **Data Scientist** specializing in enterprise-grade Data & AI products incl. backend systems and user-facing applications 
 
 ###  What I Do Best
 - **Agentic Backend Architecture**: FastAPI endpoints serving multi-agent systems for production frontend clients with streaming capabilities and state management
