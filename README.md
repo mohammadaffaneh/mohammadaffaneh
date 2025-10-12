@@ -42,11 +42,11 @@ Production Python services with strong typing, async I/O, comprehensive pytest s
 ## Tech Stack
 
 
-**Daily Drivers**: Python · FastAPI · AWS (Bedrock, DynamoDB, SageMaker, Lambda, EKS, S3) 
-**AI**: Claude Models · Claude Agents SDK · OpenAI · LangChain/LangGraph · Pydantic · Sentence Transformers  
-**Search & Data**: OpenSearch/Elasticsearch · Databricks/Spark · PostgreSQL · Redis · SQL
-**Observability**:  ·Customized Logs · Dashboards · MLflow · OpenTelemetry
-**IaC & Ops**: · Docker  · Kubernetes · Terraform · GitHub Actions
+- **Daily Drivers**: Python · FastAPI · AWS (Bedrock, DynamoDB, SageMaker, Lambda, EKS, S3) 
+- **AI**: Claude Models · Claude Agents SDK · OpenAI · LangChain/LangGraph · Pydantic · Sentence Transformers  
+- **Search & Data**: OpenSearch/Elasticsearch · Databricks/Spark · PostgreSQL · Redis · SQL
+- **Observability**:  ·Customized Logs · Dashboards · MLflow · OpenTelemetry
+- **IaC & Ops**: · Docker  · Kubernetes · Terraform · GitHub Actions
 
 ---
 
