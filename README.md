@@ -12,7 +12,7 @@ I build and ship Data & AI applications for enterprise workflows—focusing on a
 ### What I Built
 
 **Agentic RAG Systems**  
-Agents with hybrid retrieval (BM25 + vector), document grading, and streaming responses.
+- Agents with hybrid retrieval (BM25 + vector), document grading, and streaming responses.
 
 **Production APIs & Infrastructure**  
 - FastAPI services with clean architecture, async I/O, LLM with structured output, and strong typing. 
@@ -20,10 +20,10 @@ Agents with hybrid retrieval (BM25 + vector), document grading, and streaming re
 - Design for observability and safe extensibility.
 
 **Search & Data Pipelines**  
-Databricks and AWS SageMaker Workflows for indexing, chunking, embeddings, and evaluation tracking. OpenSearch (hybrid search), DynamoDB (multi-table with GSIs), Redis for context/memory.
+- Databricks and AWS SageMaker Workflows for indexing, chunking, embeddings, and evaluation tracking. OpenSearch (hybrid search), DynamoDB (multi-table with GSIs), Redis for context/memory.
 
 **AI-Assisted Workflows**  
-Automated generation of 800+ annual regulatory reports, event summarization (55% faster time-to-insight), deviation drafting assistants, and GMP-validated multivariate monitoring (30-day earlier drift detection).
+- Automated generation of 800+ annual regulatory reports, event summarization (55% faster time-to-insight), deviation drafting assistants, and GMP-validated multivariate monitoring (30-day earlier drift detection).
 
 ### Tech Stack
 
