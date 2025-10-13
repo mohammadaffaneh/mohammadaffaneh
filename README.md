@@ -5,48 +5,46 @@
 </p>
 
 ---
+## AI Engineer | Building Production-Grade Data & AI Systems
 
-## Building Enterprise AI That Ships
+I build and ship Data & AI applications for enterprise workflows—focusing on agentic systems, retrieval-augmented generation, and automated workflows. Currently working at Takeda, delivering AI features for manufacturing and quality systems that teams actually use.
 
-I build **production-grade AI systems** that handle +100K of documents, serve real-time agentic workflows, and survive the transition from notebook to production deployment. My focus: making LLMs reliable enough for enterprises processes.
+### What I Built
 
-### What I Solve
+**Agentic RAG Systems**  
+Agents with hybrid retrieval (BM25 + vector), document grading, and streaming responses.
 
-**Problem**: Most AI prototypes collapse under production load—inconsistent outputs, ungoverned costs, no observability.  
-**My Approach**: Treat LLMs as unreliable components requiring:
-- **Structured validation**: Pydantic-enforced schemas, function calling, deterministic post-processing
-- **Rigorous evaluation**: Task-grounded metrics (factuality, grounding, latency P90), A/B tests with stat-sig guardrails
-- **Production hygiene**: Versioned and optimized prompts/datasets, traces with lineage, cost-per-call monitoring, automated regression tests
+**Production APIs & Infrastructure**  
+- FastAPI services with clean architecture, async I/O, LLM with structured output, and strong typing. 
+- CI/CD with GitHub Actions, multi-stage Docker builds, K8s deployments (EKS), and SonarCloud gates. 
+- Design for observability and safe extensibility.
+
+**Search & Data Pipelines**  
+Databricks and AWS SageMaker Workflows for indexing, chunking, embeddings, and evaluation tracking. OpenSearch (hybrid search), DynamoDB (multi-table with GSIs), Redis for context/memory.
+
+**AI-Assisted Workflows**  
+Automated generation of 800+ annual regulatory reports, event summarization (55% faster time-to-insight), deviation drafting assistants, and GMP-validated multivariate monitoring (30-day earlier drift detection).
+
+### Tech Stack
+
+**Core:** Python, FastAPI, SQL  
+**AI/ML:** LangGraph, LangChain, Google ADK, Claude Agents SDK, Hugging Face, prompt/context engineering, RAG, NLP evals  
+**Search & Data:** OpenSearch, DynamoDB, Redis, PySpark  
+**Orchestration:** Databricks (workflows, model serving, MLflow), SageMaker, Celery  
+**DevOps:** GitHub Actions, Docker, Kubernetes (EKS), JFrog  
+**Cloud:** AWS, Azure, Databricks  
+
+### Current Focus
+
+Scaling agentic workflows with better evaluation frameworks, optimizing RAG retrieval quality vs. cost trade-offs, and building reusable service templates for rapid AI feature delivery. Experimenting with advanced agent patterns (planning, sub-agents, routing, reflection, tool use) and production LLM observability.
+
+### How I Work
+
+Ship iteratively with production mindset from day one—tests, CI/CD, monitoring, docs. Lead technical decisions by working closely with product, backend, data, and QA teams. Run discovery sessions, guide PoCs, and enable platform teams to extend what I build. Pragmatic about trade-offs; comfortable with ambiguity.
 
 ---
 
-## Core Capabilities
-
-### **Cloud-Native AI Infrastructure**
-Design and deploy secure, cost-aware GenAI systems on **Bedrock/SageMaker** / **Antrhopic** / **OpenAI**. Build hybrid search pipelines combining vector stores (OpenSearch/Pinecone) with keyword ranking, served through async FastAPI endpoints with sub-200ms P95 latency.
-
-### **Multi-Agent Systems in Production**
-Orchestrate LangGraph agents or Claude Agent SDK handling parallel tool calls, state checkpointing, and human-in-the-loop interventions. Frontend clients consume SSE streams with proper backpressure handling.
-
-### **LLM Evaluation & Safety**
-Own the metrics: pairwise win-rate evals, factuality checks against ground truth. Track cost-per-call, latency, and output quality. SageMaker Experiments/MLflow for versioning.
-
-### **Data Pipelines at Scale**
-ETL workflows processing millions of unstructured documents (PDFs/DOCX/emails) through batch AI extraction jobs on SageMaker or Spark/Databricks, loading into PostgreSQL/S3 with schema evolution and backfill strategies. Orchestrate with Airflow/Step Functions; monitor data quality drift.
-
-### **Backend Engineering Discipline**
-Production Python services with strong typing, async I/O, comprehensive pytest suites, CI/CD (GitHub Actions/Jenkins), Docker/K8s deployments. Structured logging, OpenTelemetry traces, IaC with CDK/Terraform for reproducible environments.
-
----
-
-## Tech Stack
-
-
-- **Daily Drivers**: Python · FastAPI · AWS (Bedrock, DynamoDB, SageMaker, Lambda, EKS, S3) 
-- **AI**: Claude Models · Claude Agents SDK · OpenAI · LangChain/LangGraph · Pydantic · Sentence Transformers  
-- **Search & Data**: OpenSearch/Elasticsearch · Databricks/Spark · PostgreSQL · Redis · SQL
-- **Observability**:  ·Customized Logs · Dashboards · MLflow · OpenTelemetry
-- **IaC & Ops**: · Docker  · Kubernetes · Terraform · GitHub Actions
+📍 Berlin, Germany | 🌐 Open to collaborations on AI engineering, RAG systems, and developer tooling
 
 ---
 
@@ -54,7 +52,6 @@ Production Python services with strong typing, async I/O, comprehensive pytest s
 
 **Evaluation-First Development**: Every AI feature ships with quantitative evals and regression tests—no "vibes-based" deployments  
 **Cost-Aware Architecture**: Design for $/request, not just accuracy; implement caching, prompt compression, model routing  
-**Reproducibility by Default**: Versioned prompts, deterministic seeds, one-command environment setup  
 
 ---
 
