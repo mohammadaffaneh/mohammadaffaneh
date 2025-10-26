@@ -2,16 +2,14 @@
 
 I build production data and AI systems and user-facing applications. Currently working on agentic systems, workflows, search/retrieval pipelines, and AI-powered automation tools at Takeda.
 
-**Recent work:**
+**EExpertise and interests:**
 - Agentic systems with orchestration patterns for complex workflows—routing between specialized agents, retrieval augmentation, multimodal, tool use, and memory management
 - Batch inference pipelines for multimodal document understanding. Extracting information and structured data from visual and textual content at scale
 - Scalable search infrastructure combining semantic and lexical retrieval
 - Production FastAPI services handling high-concurrency LLM operations with async patterns
-- Automated document generation pipelines processing and creating thousands of reports annually from heterogeneous data sources
+- Automation of scalable unstructured documents generation pipelines processing 
 
 **Stack:** Python, FastAPI, LangGraph, Claude Agent SDK, AWS (Bedrock, EKS, SageMaker, S3, Step Functions, DynamoDB), Databricks, OpenSearch, Redis
-
-**Currently:** Experimenting with agent evaluation frameworks and cost/quality tradeoffs in production LLM systems
 
 ### How I Work
 
