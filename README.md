@@ -1,19 +1,30 @@
 ## Hey, I'm Mohammad
 
-I build production data and AI systems and user-facing applications. Currently working on agentic systems, workflows, search/retrieval pipelines, and AI-powered automation tools at Takeda.
+I build production-grade agentic AI systems and data pipelines. Currently growing my skills in building self-healing agent workflows, observability infrastructure, and human-in-the-loop systems.
 
-**EExpertise and interests:**
-- Agentic systems with orchestration patterns for complex workflows—routing between specialized agents, retrieval augmentation, multimodal, tool use, and memory management
-- Batch inference pipelines for multimodal document understanding. Extracting information and structured data from visual and textual content at scale
-- Scalable search infrastructure combining semantic and lexical retrieval
-- Production FastAPI services handling high-concurrency LLM operations with async patterns
-- Automation of scalable unstructured documents generation pipelines processing 
+**What I Build:**
 
-**Stack:** Python, FastAPI, LangGraph, Claude Agent SDK, AWS (Bedrock, EKS, SageMaker, S3, Step Functions, DynamoDB), Databricks, OpenSearch, Redis
+**Agent Systems & Orchestration**
+- Multi-agent orchestration with LangGraph/ Claude Agents SDK for complex workflows—routing between specialized agents, implementing feedback loops, and managing context across agent interactions
+- Self-healing agent pipelines with automated error recovery, retry logic, and fallback strategies
+- Human-in-the-loop (HITL) workflows
+- Agent communication protocols including Model Context Protocol (MCP) for standardized tool integration
+
+**Observability & Production Operations**
+- Full-stack observability for agentic systems—tracing agent decision flows, tool calls, and multi-turn interactions
+- Real-time monitoring and alerting for LLM operations with latency, cost, and error rate tracking
+
+**Scalable AI Infrastructure**
+- Batch inference pipelines for multimodal document understanding at scale
+- Hybrid search systems combining semantic and lexical retrieval with OpenSearch
+- Production FastAPI services with async patterns for high-concurrency LLM operations
+- Cost-aware architecture with caching, prompt optimization, and intelligent model routing
+
+**Stack:** Python, FastAPI, LangGraph, Claude/OpenAI Agents SDK, AWS (Bedrock, EKS, SageMaker, Step Functions, DynamoDB), OpenSearch, Redis, observability tools
 
 ### How I Work
 
-Ship iteratively with production mindset from day one—tests, CI/CD, monitoring, docs. Lead technical decisions by working closely with product, backend, data, and QA teams. Run discovery sessions, guide PoCs, and enable platform teams to extend what I build. Pragmatic about trade-offs; comfortable with ambiguity.
+Production-first mindset with comprehensive observability from day one—every agent ships with tracing, monitoring, evaluation metrics, and human oversight workflows. Lead technical architecture by working cross-functionally with product, backend, and data teams. Design systems with failure recovery, graceful degradation, and clear escalation paths. Pragmatic about trade-offs between autonomy and safety.
 
 ---
 
@@ -23,14 +34,15 @@ Ship iteratively with production mindset from day one—tests, CI/CD, monitoring
 
 ## Differentiators
 
-**Evaluation-First Development**: Every AI feature ships with quantitative evals and regression tests—no "vibes-based" deployments  
-**Cost-Aware Architecture**: Design for $/request, not just accuracy; implement caching, prompt compression, model routing  
+**Reliability Engineering for AI**: Design agent systems with self-healing capabilities, automated recovery workflows, and comprehensive observability—no black-box deployments
+
+**Evaluation-Driven Development**: Every AI feature ships with quantitative evals, regression tests, and continuous monitoring—deployed systems improve over time through structured feedback
 
 ---
 
-##  Let's Connect
+## Let's Connect
 
-Building something that needs to go from POC to production without the usual AI deployment failures? Let's talk architecture trade-offs.
+Building agentic systems that need production-grade reliability, observability, and human oversight? Let's discuss architecture for systems that don't just work on demo day—they scale, self-heal, and improve continuously.
 
 <p align="center">
   <a href="https://linkedin.com/in/mohammad-affaneh">
