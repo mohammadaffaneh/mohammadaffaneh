@@ -1,42 +1,17 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Production%20AI%20Systems-FF6B6B?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Multi--Agent%20Orchestration-4ECDC4?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/LLM%20Evaluation%20%26%20Safety-45B7D1?style=for-the-badge&logo=openai&logoColor=white" />
-</p>
+## Hey, I'm Mohammad
 
----
-## AI Engineer | Building Production-Grade Data & AI Systems
+I build production data and AI systems and user-facing applications. Currently working on agentic systems, workflows, search/retrieval pipelines, and AI-powered automation tools at Takeda.
 
-I build and ship Data & AI applications for enterprise workflows—focusing on agentic systems, retrieval-augmented generation, and automated workflows. Currently working at Takeda, delivering AI features for manufacturing and quality systems that teams actually use.
+**Recent work:**
+- Agentic systems with orchestration patterns for complex workflows—routing between specialized agents, retrieval augmentation, multimodal, tool use, and memory management
+- Batch inference pipelines for multimodal document understanding. Extracting information and structured data from visual and textual content at scale
+- Scalable search infrastructure combining semantic and lexical retrieval
+- Production FastAPI services handling high-concurrency LLM operations with async patterns
+- Automated document generation pipelines processing and creating thousands of reports annually from heterogeneous data sources
 
-### What I Built
+**Stack:** Python, FastAPI, LangGraph, Claude Agent SDK, AWS (Bedrock, EKS, SageMaker, S3, Step Functions, DynamoDB), Databricks, OpenSearch, Redis
 
-**Agentic RAG Systems**  
-- Agents with hybrid retrieval (BM25 + vector), document grading, and streaming responses.
-
-**Production APIs & Infrastructure**  
-- FastAPI services with clean architecture, async I/O, LLM with structured output, and strong typing. 
-- CI/CD with GitHub Actions, multi-stage Docker builds, K8s deployments (EKS), and SonarCloud gates. 
-- Design for observability and safe extensibility.
-
-**Search & Data Pipelines**  
-- Databricks and AWS SageMaker Workflows for indexing, chunking, embeddings, and evaluation tracking. OpenSearch (hybrid search), DynamoDB (multi-table with GSIs), Redis for context/memory.
-
-**AI-Assisted Workflows**  
-- Automated generation of 800+ annual regulatory reports, event summarization (55% faster time-to-insight), deviation drafting assistants, and GMP-validated multivariate monitoring (30-day earlier drift detection).
-
-### Tech Stack
-
-**Core:** Python, FastAPI, SQL  
-**AI/ML:** LangGraph, LangChain, Google ADK, Claude Agents SDK, Hugging Face, prompt/context engineering, RAG, NLP evals  
-**Search & Data:** OpenSearch, DynamoDB, Redis, PySpark  
-**Orchestration:** Databricks (workflows, model serving, MLflow), SageMaker, Celery  
-**DevOps:** GitHub Actions, Docker, Kubernetes (EKS), JFrog  
-**Cloud:** AWS, Azure, Databricks  
-
-### Current Focus
-
-Scaling agentic workflows with better evaluation frameworks, optimizing RAG retrieval quality vs. cost trade-offs, and building reusable service templates for rapid AI feature delivery. Experimenting with advanced agent patterns (planning, sub-agents, routing, reflection, tool use) and production LLM observability.
+**Currently:** Experimenting with agent evaluation frameworks and cost/quality tradeoffs in production LLM systems
 
 ### How I Work
 
@@ -44,7 +19,7 @@ Ship iteratively with production mindset from day one—tests, CI/CD, monitoring
 
 ---
 
-📍 Berlin, Germany | 🌐 Open to collaborations on AI engineering, RAG systems, and developer tooling
+📍 Berlin, Germany | 🌐 Open to collaborations
 
 ---
 
