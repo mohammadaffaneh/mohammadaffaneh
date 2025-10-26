@@ -2,7 +2,7 @@
 
 I build production-grade agentic AI systems and data pipelines. Currently growing my skills in building self-healing agent workflows, observability infrastructure, and human-in-the-loop systems.
 
-**What I Build:**
+**Expertise and interests:**
 
 **Agent Systems & Orchestration**
 - Multi-agent orchestration with LangGraph/ Claude Agents SDK for complex workflows—routing between specialized agents, implementing feedback loops, and managing context across agent interactions
