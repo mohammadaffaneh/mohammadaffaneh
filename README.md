@@ -9,9 +9,6 @@ I build production-grade agentic AI systems and data pipelines. Currently growin
 - Self-healing agent pipelines with automated error recovery, retry logic, and fallback strategies
 - Human-in-the-loop (HITL) workflows
 - Agent communication protocols including Model Context Protocol (MCP) for standardized tool integration
-
-**Observability & Production Operations**
-- Full-stack observability for agentic systems—tracing agent decision flows, tool calls, and multi-turn interactions
 - Real-time monitoring and alerting for LLM operations with latency, cost, and error rate tracking
 
 **Scalable AI Infrastructure**
@@ -21,10 +18,6 @@ I build production-grade agentic AI systems and data pipelines. Currently growin
 - Cost-aware architecture with caching, prompt optimization, and intelligent model routing
 
 **Stack:** Python, FastAPI, LangGraph, Claude/OpenAI Agents SDK, AWS (Bedrock, EKS, SageMaker, Step Functions, DynamoDB), OpenSearch, Redis, observability tools
-
-### How I Work
-
-Production-first mindset with comprehensive observability from day one—every agent ships with tracing, monitoring, evaluation metrics, and human oversight workflows. Lead technical architecture by working cross-functionally with product, backend, and data teams. Design systems with failure recovery, graceful degradation, and clear escalation paths. Pragmatic about trade-offs between autonomy and safety.
 
 ---
 
